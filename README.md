@@ -3,10 +3,10 @@
 A from-scratch implementation of a 32-bit RISC-V processor
 using SystemVerilog.
 
-## Goals
+## Project Goals
 
-- Implement a functional RV32I processor
-- Understand the complete datapath and control path
+- Understand and implement a complete processor datapath
+- Implement the RV32I instruction set
 - Build a 5-stage pipeline
 - Handle data and control hazards
 - Develop a self-checking verification environment
@@ -18,7 +18,16 @@ using SystemVerilog.
 - Data width: 32-bit
 - Pipeline: 5-stage
 - HDL: SystemVerilog
-- Simulation: Icarus Verilog / Surfer
+- Simulation: Icarus Verilog
+- Waveform viewer: Surfer
+
+## Project Structure
+
+- `rtl/` — RTL source code
+- `tb/` — testbenches
+- `docs/` — design and debugging documentation
+- `programs/` — RISC-V test programs
+- `waveforms/` — waveform files
 
 ## Status
 
